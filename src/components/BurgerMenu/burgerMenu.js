@@ -5,20 +5,24 @@ export default props => {
   return (
     <Menu {...props}>
       <a className="menu-item" href="/">
-        Principal
+        Inicio
       </a>
 
-      <a className="menu-item" href="/about">
-        About
+      <a className="menu-item" href="/Productos">
+        Productos
       </a>
 
-      <a className="menu-item" href="/services">
-        Services
+      <a className="menu-item" href="/Personaliza-tu-pedido">
+        Personalizá tu pedido
       </a>
 
-      <a className="menu-item" href="/contact">
-        Contact us
+      <a className="menu-item" href="/Preguntas-frecuentes">
+        Preguntas Frecuentes
       </a>
+      <a className="menu-item" href="/Contacto">
+        Contacto
+      </a>
+      <hr className="barraSep" />
     </Menu>
   );
 };
