@@ -1,0 +1,16 @@
+html {
+    box-sizing: border-box;
+}
+
+/*.contenedor {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+.pie {
+    text-align: center;
+    color: blue;
+}
