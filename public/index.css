@@ -1,16 +1,56 @@
 html {
     box-sizing: border-box;
 }
+/* Para el header:
+.header {
+    position: sticky;
+}*/
 
-/*.contenedor {
+.contenedor {
+    text-align: center;
+    /*
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
-    margin-right: auto;
-}*/
+    margin-right: auto;*/
+}
 
-.pie {
+#social-icon {
+    color: rgb(119, 82, 82);
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+#social-icon:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+.final {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    padding-bottom: 15px;
+}
+.email {
+    text-decoration: none;
+    color: rgb(112, 107, 30)
+}
+.email:hover {
+    opacity: 0.6;
+}
+.txt-izq {
+    text-align: left;
+    padding-left: 30px;
+    display: table-cell;
+}
+.txt-centro {
     text-align: center;
-    color: blue;
+    display: table-cell;
+}
+
+.txt-der {
+    text-align: right;
+    padding-right: 30px;
+    display: table-cell;
 }

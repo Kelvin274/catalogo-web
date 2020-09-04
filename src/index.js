@@ -11,10 +11,10 @@ function Menu() {
   return (
     <div id="App">
       <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />
-      
-      
+      <img className="Logo" src={require("./img/accesorios.png")} alt="logo" />
       <div id="page-wrap">
-        <h1>Contenido centrado.</h1>
+        
+        <h2>Contenido centrado.</h2>
 
       </div>
     </div>
